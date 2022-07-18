@@ -1,6 +1,6 @@
 # Course-Docker-Containers
 
-## Homerwork 2
+## Homework 2
 
 Description of all instructions from the Dockerfile
 
@@ -18,3 +18,18 @@ Install the project dependencies
 
 ### 5. CMD [ "node", "index.js" ]
 Command to execute the application.
+
+
+## Installation guide
+### Pull the image
+
+`docker push rys999/mynodejsapp:joel.chambilla`
+
+### Run a container from the image previously pulled
+
+`docker run -d -p 3000:3000 --name mysimplestnodejsapp rys999/mynodejsapp:joel.chambilla`
+
+### Options
+- -d: detached mode
+- -p: Publish a container's port to the host. (e.g. 3000)
+- --name: Set a name to the container
