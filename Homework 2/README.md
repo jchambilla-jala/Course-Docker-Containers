@@ -33,3 +33,8 @@ Command to execute the application.
 - -d: detached mode
 - -p: Publish a container's port to the host. (e.g. 3000)
 - --name: Set a name to the container
+
+### Test the app
+Type in your browser the following url:
+
+`http://localhost:3000`
